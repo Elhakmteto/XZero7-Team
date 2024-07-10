@@ -1,0 +1,127 @@
+	body{margin:0;padding:0px}
+	
+	.header {
+		width:100%;
+		height:60px;
+		background-color:teal;
+		color:white;
+		font-size:25px;
+		text-align:center;
+		align-content:center;
+	}
+	
+	.links {
+		width:100%;
+		height:35px;
+		background-color:#DDD;
+		color:black;
+		text-align:center;
+		align-content:center;
+	}
+	.services {margin:0px 10px}
+	
+	h1{
+		margin:20px 0px 0px 0px;
+		font-size:25px
+	}
+	
+	h3{
+		direction:rtl;
+		margin:0px 20px 10px 0px
+	}
+	
+	.html {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("html.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.css {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("css.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.js {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("js.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.php {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("php.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.sql {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("sql.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.java {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("java.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.python {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("python.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}
+	
+	.ruby {
+		with:85%;
+		height:200px;
+		margin:15px;
+		border:solid 3px teal;
+		border-radius:10px;
+		background-image:url("ruby.png");
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center center;
+	}

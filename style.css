@@ -1,0 +1,123 @@
+body{
+	margin:0px;
+	padding:0px;
+	align-content:center;
+}
+
+	.header{
+		width:100%;
+		height:60px;
+		background-color:teal;
+		font-size:30px;
+		color:white;
+		text-align:center;
+		align-content:center;
+		position:fixed
+		}
+		
+	.items {
+		width:100%;
+		height:30px;
+		text-align:center;
+		align-content:center;
+		background:#DDD;
+		margin-top:60px;
+		position:fixed
+	
+	}
+	
+	.servises {
+		border:solid 3px teal;
+		border-radius:15px;
+		width:85%;
+		text-align:center;
+		margin-left: calc( 100% - 85% - 30px );
+		margin-right: calc( 100% - 85% - 26px );
+		padding:10px 0px 0px 0px;
+		margin-top:110px;
+		margin-bottom:20px;
+		animation-name:item;
+		animation-duration:1s;
+		animation-fill-mode:forwards;
+		animation-play-state:paused;
+		
+	}
+	.servise {
+		width:80%;
+		height:250px;
+		border-radius:15px;
+		margin:10px 10px 10px 10px;
+		padding:10px;
+		
+	}
+	
+	.text{
+	margin:0px;
+	padding:0px;
+	font-size:30px;
+	padding:10px;
+	font-weight:bold;
+	}
+	
+	.calls {
+	border:solid 3px teal;
+	border-radius:15px;
+	width:85%;
+	text-align:center;
+	margin-left: calc( 100% - 85% - 30px );
+	margin-right: calc( 100% - 85% - 26px );
+	padding:10px 0px 0px 0px;
+	margin-top:20px;
+	margin-bottom:20px;}
+	
+	.call {
+	width:80%;
+	height:250px;
+	border-radius:15px;
+	margin:10px 10px 10px 10px;
+	padding:10px;
+	animation-name:item;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+	animation-play-state:paused;
+	}
+	
+	.fab{
+		width:50px;
+		height:50px;
+		background-image:url("fab.png");
+		background-size:50px;
+		background-color:teal;
+		border-radius:360px;
+		position:fixed;
+		bottom:15px;
+		right:15px
+	}
+	
+	span {margin-left:10px;margin-right:10px}
+	
+	.courses {
+		border:solid 3px teal;
+		border-radius:15px;
+		width:85%;
+		text-align:center;
+		margin-left: calc( 100% - 85% - 30px );
+		margin-right: calc( 100% - 85% - 26px );
+		padding:10px 0px 0px 0px;
+		margin-top:20px;
+		margin-bottom:20px;
+		}
+	
+	
+	@keyframes item{
+	from{
+	
+	}
+	to{
+	
+	}
+}
+	
+	section:hover{
+		animation-play-state:running;
+	}
